@@ -11,4 +11,5 @@ resource "aws_instance" "intro" {
   tags = {
     Name = "Terra-instance"
   }
+  user_data=file("${path.module}/app1-install.sh")
 }
