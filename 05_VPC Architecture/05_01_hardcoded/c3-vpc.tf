@@ -39,7 +39,7 @@ module "vpc" {
   }
 
   tags = {
-    Owner = "tarun8367"
+    Owner = "Lokesh"
     Environment = "dev"
   }
 
