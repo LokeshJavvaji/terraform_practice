@@ -14,8 +14,10 @@ resource "null_resource" "name" {
 
   # Copies the terraform-key.pem file to /tmp/terraform-key.pem
   provisioner "file" {
+     
     source      = "private-key/terraform-key.pem"
     destination = "/tmp/terraform-key.pem"
+  
   }
 
   # Using remote-exec provisioner fix the private key permissions on Bastion Host
