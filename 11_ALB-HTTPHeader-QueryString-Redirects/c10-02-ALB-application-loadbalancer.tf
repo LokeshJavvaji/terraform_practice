@@ -179,7 +179,7 @@ module "alb" {
         protocol    = "HTTPS"
       }]
       conditions = [{
-        host_headers = ["azure-aks11.loke19.shop"]
+        host_headers = ["azure-aks101.loke19.shop"]
       }]
     },   
   ]
