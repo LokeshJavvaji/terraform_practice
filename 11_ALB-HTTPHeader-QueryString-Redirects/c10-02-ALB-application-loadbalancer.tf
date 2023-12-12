@@ -154,7 +154,7 @@ module "alb" {
       actions = [{
         type        = "redirect"
         status_code = "HTTP_302"
-        host        = "loke19.shop"
+        host        = "stacksimplify.com"
         path        = "/aws-eks/"
         query       = ""
         protocol    = "HTTPS"
@@ -173,7 +173,7 @@ module "alb" {
       actions = [{
         type        = "redirect"
         status_code = "HTTP_302"
-        host        = "loke19.shop"
+        host        = "stacksimplify.com"
         path        = "/azure-aks/azure-kubernetes-service-introduction/"
         query       = ""
         protocol    = "HTTPS"
