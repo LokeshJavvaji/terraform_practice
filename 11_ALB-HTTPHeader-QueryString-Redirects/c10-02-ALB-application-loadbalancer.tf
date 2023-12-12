@@ -154,7 +154,7 @@ module "alb" {
       actions = [{
         type        = "redirect"
         status_code = "HTTP_302"
-        host        = "thetkc.shop"
+        host        = "loke19.shop"
         path        = "/aws-eks/"
         query       = ""
         protocol    = "HTTPS"
@@ -173,13 +173,13 @@ module "alb" {
       actions = [{
         type        = "redirect"
         status_code = "HTTP_302"
-        host        = "thetkc.shop"
+        host        = "loke19.shop"
         path        = "/azure-aks/azure-kubernetes-service-introduction/"
         query       = ""
         protocol    = "HTTPS"
       }]
       conditions = [{
-        host_headers = ["azure-aks11.thetkc.shop"]
+        host_headers = ["azure-aks11.loke19.shop"]
       }]
     },   
   ]
