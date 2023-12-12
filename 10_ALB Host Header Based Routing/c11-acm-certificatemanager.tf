@@ -9,7 +9,7 @@ module "acm" {
   validation_method = "DNS"
 
   subject_alternative_names = [
-    "*.thetkc.shop",
+    "*.loke19.shop",
   ]
 
   wait_for_validation = true

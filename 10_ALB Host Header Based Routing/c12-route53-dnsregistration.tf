@@ -1,7 +1,7 @@
 # DNS Registration 
 resource "aws_route53_record" "apps_dns" {
   zone_id = data.aws_route53_zone.mydomain.id
-  name    = "apps.thetkc.shop"
+  name    = "apps.loke19.shop"
   type    = "A"
 
   alias {
