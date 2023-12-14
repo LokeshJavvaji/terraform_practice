@@ -126,7 +126,7 @@ module "alb" {
         #path_patterns = ["/app1*"]
         #host_headers = [var.app1_dns_name]
         http_headers = [{
-          http_header_name = "custom-header"
+          http_header_name = "sample"
           values           = ["app-1", "app1", "my-app-1"]
         }]
       }]
@@ -142,7 +142,7 @@ module "alb" {
       ]
       conditions = [{
         http_headers = [{
-          http_header_name = "custom-header"
+          http_header_name = "sample"
           values           = ["app-2", "app2", "my-app-2"]
         }]
       }]

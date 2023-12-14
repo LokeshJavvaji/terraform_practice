@@ -2,7 +2,7 @@
 ## Default DNS
 resource "aws_route53_record" "default_dns" {
   zone_id = data.aws_route53_zone.mydomain.zone_id 
-  name    = "myapps101.loke19.shop"
+  name    = "myapps111.loke19.shop"
   type    = "A"
   alias {
     name                   = module.alb.lb_dns_name
